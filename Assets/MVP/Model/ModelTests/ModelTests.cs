@@ -12,4 +12,12 @@ public class ModelTests
         Model sut = new Model();
         Assert.IsTrue(sut.vidas > 0);
     }
+
+    [Test]
+    public void aslñdjfalsdkfj()
+    {
+        Model sut = new Model();
+        sut.IncrementarVida(1);
+        Assert.AreEqual(2, sut.vidas);
+    }
 }
