@@ -28,4 +28,12 @@ public class ModelTests
         sut.IncrementarVida(2);
         Assert.AreEqual(3, sut.vidas);
     }
+
+    [Test]
+    public void PerderVida()
+    {
+        Model sut = new Model();
+        sut.PerderVida();
+        Assert.AreEqual(0, sut.vidas);
+    }
 }

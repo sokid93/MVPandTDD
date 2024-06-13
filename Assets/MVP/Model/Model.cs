@@ -9,4 +9,9 @@ public class Model
     {
         vidas += incremento;
     }
+
+    public void PerderVida()
+    {
+        throw new NotImplementedException();
+    }
 }
