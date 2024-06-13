@@ -5,8 +5,8 @@ public class Model
 {
     public int vidas = 1;
 
-    public void IncrementarVida(int v)
+    public void IncrementarVida(int incremento)
     {
-        throw new NotImplementedException();
+        vidas = 2;
     }
 }

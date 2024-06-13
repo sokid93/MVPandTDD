@@ -20,4 +20,12 @@ public class ModelTests
         sut.IncrementarVida(1);
         Assert.AreEqual(2, sut.vidas);
     }
+
+    [Test]
+    public void dfdadsffalsdkfj()
+    {
+        Model sut = new Model();
+        sut.IncrementarVida(2);
+        Assert.AreEqual(3, sut.vidas);
+    }
 }
