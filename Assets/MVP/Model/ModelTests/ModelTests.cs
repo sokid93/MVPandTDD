@@ -36,4 +36,13 @@ public class ModelTests
         sut.PerderVida();
         Assert.AreEqual(0, sut.vidas);
     }
+
+    [Test]
+    public void PerderVariasVidas()
+    {
+        Model sut = new Model(2);
+        sut.PerderVida();
+        sut.PerderVida();
+        Assert.AreEqual(0, sut.vidas);
+    }
 }
