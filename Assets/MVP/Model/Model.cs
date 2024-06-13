@@ -7,6 +7,6 @@ public class Model
 
     public void IncrementarVida(int incremento)
     {
-        vidas = 2;
+        vidas += incremento;
     }
 }
