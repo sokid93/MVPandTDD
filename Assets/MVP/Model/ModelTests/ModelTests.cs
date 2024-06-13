@@ -14,7 +14,7 @@ public class ModelTests
     }
 
     [Test]
-    public void aslñdjfalsdkfj()
+    public void IncrementoVida()
     {
         Model sut = new Model();
         sut.IncrementarVida(1);
@@ -22,7 +22,7 @@ public class ModelTests
     }
 
     [Test]
-    public void dfdadsffalsdkfj()
+    public void IncrementoDeVariasVidas()
     {
         Model sut = new Model();
         sut.IncrementarVida(2);
