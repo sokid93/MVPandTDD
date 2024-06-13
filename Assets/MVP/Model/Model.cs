@@ -12,6 +12,6 @@ public class Model
 
     public void PerderVida()
     {
-        throw new NotImplementedException();
+        vidas -= 1;
     }
 }
