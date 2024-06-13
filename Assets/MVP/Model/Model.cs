@@ -3,11 +3,9 @@ using System;
 
 public class Model
 {
-    public int vidas = 1;
+    public int vidas;
 
-    public Model()
-    {
-    }
+    public Model() : this(1) { }
 
     public Model(int vidaInicial)
     {
