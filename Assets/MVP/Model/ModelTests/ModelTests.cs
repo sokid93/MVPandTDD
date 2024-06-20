@@ -50,6 +50,6 @@ public class ModelTests
     public void VelocidadInicialNoEsCero()
     {
         Model sut = new Model();
-        Assert.Greater(0, sut.velocidad);
+        Assert.Greater(sut.velocidad, 0);
     }
 }

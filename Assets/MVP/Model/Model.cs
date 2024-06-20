@@ -11,6 +11,7 @@ public class Model
     public Model(int vidaInicial)
     {
         vidas = vidaInicial;
+        velocidad = 5;
     }
 
     public void IncrementarVida(int incremento)
