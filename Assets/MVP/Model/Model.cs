@@ -4,6 +4,7 @@ using System;
 public class Model
 {
     public int vidas;
+    public int velocidad;
 
     public Model() : this(1) { }
 

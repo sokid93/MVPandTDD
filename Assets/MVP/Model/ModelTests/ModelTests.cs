@@ -45,4 +45,11 @@ public class ModelTests
         sut.PerderVida();
         Assert.AreEqual(0, sut.vidas);
     }
+
+    [Test]
+    public void VelocidadInicialNoEsCero()
+    {
+        Model sut = new Model();
+        Assert.Greater(0, sut.velocidad);
+    }
 }
